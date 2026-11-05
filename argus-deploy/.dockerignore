@@ -1,0 +1,15 @@
+# The engine and backend images build from the repository root; keep the
+# context small (the raw dataset alone is ~900 MB).
+*
+!ml/requirements.txt
+!backend/requirements.txt
+!backend/alembic.ini
+!backend/alembic
+!backend/app
+!ml/sentinel_ml
+!engine/requirements.txt
+!engine/sentinel_engine
+!models/sentinel-flow/2026.10.03
+!models/sentinel-flow/2026.10.04
+!data/samples/flow_profiles.csv
+**/__pycache__
